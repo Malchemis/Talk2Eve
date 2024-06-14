@@ -15,10 +15,17 @@ To make this service available from anywhere, we set up a formarding port from a
 sudo systemctl start nginx
 ```
 
-2. run the Gunicorn WSGI with the Flask socketio app:
+2. Run the Gunicorn WSGI with the Flask socketio app:
  ```bash
 gunicorn --workers 1 --worker-class eventlet -b 127.0.0.1:8000 wsgi:app
 ```
+3. Start the AI program:
+```bash
+python main.py
+```
+(or set up a service and run it)
+
+4. Run both RabbiMQ and MongoDB dockers
 
 ## The architecture
 
