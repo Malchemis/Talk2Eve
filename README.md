@@ -8,4 +8,4 @@ Below, the 3 parts the project needs to function :
 
 ## The architecture
 
-![iamge of the pipeline of Talk2Eve Project](archi.png "Projct Sructure")
+![iamge of the pipeline of Talk2Eve Project](archi.png "Project Sructure")
