@@ -8,7 +8,7 @@ Below, the 5 parts the project needs to function :
 - Ai (Transformers and MITRE) : https://github.com/Malchemis/Talk2Eve-AI
 - MongoDB database (also a docker)
 
-## Requirements
+## Dockers required
 1. RabbitMQ docker:
 ```bash
 docker pull rabbitmq
